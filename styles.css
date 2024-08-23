@@ -64,7 +64,7 @@ h3 {
 
 .animated-image {
   border-radius: 24px;
-  height: 295px;
+  height: 293px;
   width: 100%;
 }
 
@@ -110,6 +110,7 @@ h3 {
   position: absolute;
   padding: 16px;
   bottom: 0;
+  width: 100%;
 }
 
 .footer {
