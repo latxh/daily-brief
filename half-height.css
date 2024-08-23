@@ -1,3 +1,30 @@
 .half-height {
     height: 170px;
 }
+
+.play-chip.single {
+    padding: 12px;
+}
+
+.play-chip.single img {
+    height: 20px;
+}
+
+.half-height-content {
+    gap: 20px;
+}
+
+.timestamp {
+    display: flex;
+    margin-right: 12px;
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: var(--chip-background);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+
+.sources .dark-timestamp {
+    color: var(--card-text);
+}
