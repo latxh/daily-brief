@@ -6,7 +6,8 @@ body {
   background: linear-gradient(90deg, #333 21px, transparent 1%) center,
     linear-gradient(#333 21px, transparent 1%) center, #444;
   background-size: 25px 25px;
-  padding: 24px;
+  margin: 0;
+  padding: 16px;
 }
 
 .daily-brief-card {
@@ -109,4 +110,32 @@ h3 {
   position: absolute;
   padding: 16px;
   bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sources {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sources h3 {
+  color: #fff;
+}
+
+.sources-images {
+  display: flex;
+  align-items: center;
+}
+
+.sources-images img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  margin-left: -10px;
 }
